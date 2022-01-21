@@ -1,7 +1,11 @@
-# My Awesome Book App (ES6)
-This is book app that allows you add books and remove books from list. Enjoy!
+![](https://img.shields.io/badge/Microverse-blueviolet)
 
-![screenshot](./AwesomeBookAppwithES6.png)
+# ToDO LIST APP
+
+This app helps users to organize and add tasks efficiently. Like adding, removing and editing the tasks created in the list.
+
+## Preview
+![Preview](./preview.png)
 ## Built With
 
 - HTML 
@@ -10,9 +14,12 @@ This is book app that allows you add books and remove books from list. Enjoy!
 
 - Javascript
 
+- Webpack
+
+
 ## DEMO
 
-https://olawalecoder.github.io/Awesome-Book-App-Es6/
+
 
 ## Getting Started
 
@@ -20,10 +27,10 @@ To get a local copy up and running follow these simple example steps.
 
 ### Prerequisites
 
-clone repo: `git clone git@github.com:olawalecoder/Awesome-Book-App-Es6-.git`
+clone repo: `git@github.com:olawalecoder/ToDoList-App.git`
 
 then
-`cd Awesome-Book-App-Es6`
+`cd ToDoList-App`
 
 ### Install
 
