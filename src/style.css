@@ -1,11 +1,12 @@
 h1 {
   text-align: center;
+  color: rgb(6, 191, 197);
 }
 
 .card {
-  width: 95%;
+  width: 90%;
   margin: 0 auto;
-  max-width: 400px;
+  max-width: 350px;
   -webkit-box-shadow: 0 2px 7px 3px rgba(0, 0, 0, 0.46);
   box-shadow: 0 2px 7px 3px rgba(0, 0, 0, 0.46);
 }
@@ -15,7 +16,7 @@ h1 {
   align-items: center;
   justify-content: space-between;
   margin: 0 auto;
-  padding: 10px 15px;
+  padding: 10px 20px;
   border-bottom: 1px solid grey;
 }
 
@@ -27,7 +28,7 @@ h1 {
   display: flex;
   align-items: center;
   justify-content: space-between;
-  padding: 5px 15px;
+  padding: 5px 20px;
   border-bottom: 1px solid grey;
 }
 
@@ -51,7 +52,7 @@ h1 {
   justify-content: space-between;
   border-bottom: 1px solid grey;
   align-items: center;
-  padding: 10px 15px;
+  padding: 10px 20px;
 }
 
 .checkAndText {
@@ -72,10 +73,29 @@ h1 {
   text-align: center;
   font-style: italic;
   padding-top: 5px;
-  padding-bottom: 15px;
+  padding-bottom: 20px;
 }
 
 #refresh-image,
-#enter-image {
-  height: 20px;
+#enter-image,
+.trash-image,
+.dots-image {
+  height: 25px;
+}
+
+.show-icon {
+  display: inline;
+}
+
+.hide-icon {
+  display: none;
+}
+
+.dots-and-trash {
+  display: flex;
+  gap: 12px;
+}
+
+.todo-text[contentEditable="true"] {
+  border: none
 }

@@ -37,7 +37,7 @@ then
 
 - Run `npm install` to install all dependencies
 
-- Run `npm start` and go to `http://localhost:8081//` to launch the server.
+- Run `npm start` and go to `http://localhost:8080//` to launch the server.
 
 ## Author
 
