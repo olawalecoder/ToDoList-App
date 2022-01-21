@@ -6,7 +6,7 @@ import { renderToDo, newToDo, todoContainer } from './modules/renderTodo.js';
 const plusIcon = document.querySelector('.plusIcon');
 
 function updateStorage() {
-newToDo.todoArray = newToDo.todoArray.filter((task, index) => {
+  newToDo.todoArray = newToDo.todoArray.filter((task, index) => {
     task.index = index + 1;
     return task;
   });
@@ -14,14 +14,14 @@ newToDo.todoArray = newToDo.todoArray.filter((task, index) => {
 }
 
 plusIcon.addEventListener('click', () => {
-newToDo.addToDo();
+  newToDo.addToDo();
   renderToDo();
   updateStorage();
 });
 
 todoInput.addEventListener('keyup', (e) => {
   if (e.keyCode === 13) {
-  plusIcon.click();
+    plusIcon.click();
   }
 });
 

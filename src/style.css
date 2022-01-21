@@ -97,5 +97,5 @@ h1 {
 }
 
 .todo-text[contentEditable="true"] {
-  border: none
+  border: none;
 }
