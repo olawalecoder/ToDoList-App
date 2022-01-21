@@ -33,10 +33,13 @@ then
 `cd ToDoList-App`
 
 ### Install
+- Open the folder with your code editor
 
-run `npm install` to install dependencies
+- Run `npm install` to install all dependencies
 
-## Authors
+- Run `npm start` and go to `http://localhost:8080//` to launch the server.
+
+## Author
 
 👤 **Author**
 
