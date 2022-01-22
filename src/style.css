@@ -72,10 +72,10 @@ h1 {
 #clear-all-text {
   text-align: center;
   font-style: italic;
-padding-bottom: 12px;
- font-size: 1em;
- font-weight: bold;
-cursor: pointer;
+  padding-bottom: 12px;
+  font-size: 1em;
+  font-weight: bold;
+  cursor: pointer;
 }
 
 #refresh-image,
@@ -98,10 +98,8 @@ cursor: pointer;
   gap: 12px;
 }
 
-.todo-text[contentEditable="true"] { 
+.todo-text[contentEditable="true"] {
   border: none;
 }
 
-.strikethrough { 
-  text-decoration: line-through;
-}
+.strikethrough { text-decoration: line-through; }
